@@ -1,2 +1,2 @@
 # Computer-vision
-Travail réaliser lors du stage chez Moviin
+Travail réaliser lors de mon stage chez Moviin
