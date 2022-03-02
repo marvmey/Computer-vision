@@ -20,7 +20,7 @@ Le programme propose plusieurs approches :
 - Tensorflow
 
 #### dataset
-Vous pouvez retrouver un large choix de jeu de données sur le site :*https://www.mvtec.com/company/research/datasets/mvtec-ad*
+Vous pouvez retrouver un large choix de jeu de données sur le site *https://www.mvtec.com/company/research/datasets/mvtec-ad*
 
 
 
@@ -44,7 +44,17 @@ J'ai utilisé VGG16 et InceptionV3 avec Tensorflow. Voici les résultats sur le 
 ### Gradcam
 
 Implémentation de la fonction Gradcam permettant de mettre en couleur les zones ciblées par le modèle.
-Ex : 
+Exemple : 
+
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_021.png)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_pill_ginseng_contamination_021.png)
+
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_022.png)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_pill_ginseng_crack_022.png)
+
+
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_good_026.png)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_good_pill_ginseng_good_026.png)
 
 
 
