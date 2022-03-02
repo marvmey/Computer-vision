@@ -46,10 +46,10 @@ J'ai utilisé VGG16 et InceptionV3 avec Tensorflow. Voici les résultats sur le 
 Implémentation de la fonction Gradcam permettant de mettre en couleur les zones ciblées par le modèle.
 Exemple : 
 
-![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_021.png)
-![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_pill_ginseng_contamination_021.png)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_021.png| width=100)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_contamination_pill_ginseng_contamination_021.png| width=100)
 
-![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_022.png)
+![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_022.png|width=100)
 ![alt text](https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_pill_ginseng_crack_022.png)
 
 
