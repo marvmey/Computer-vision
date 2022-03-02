@@ -35,11 +35,18 @@ J'ai utilisé VGG16 et InceptionV3 avec Tensorflow. Voici les résultats sur le 
 | ---   | ---  | --- |---          | ---       | ---   | ---      |
 | VGG16 | 0.987| 0.15| 32          | 256,256,3 | 25    |  Adam |
 | VGG16 | 0.977| 0.49| 32          | 300,300,3 | 32    | Adam |
-| VGG16 | 0.992| 0.1 | 32          | 300,300,3 | 150   | Adam |
+| VGG16 | 0.992| 0.1 | 64          | 300,300,3 | 150   | Adam |
 | VGG16 | 0.989| 0.1 | 32          | 300,300,3 | 50    | Adam |
 | InceptionV3| 0.991| 0.02| 32 |300,300,3| 50| Adam |
 | InceptionV3| 0.986| 0.05| 32 | 300,300,3| 50| Adam  |    *** > Shuffle = True***
 |inceptionV3| 0.985| 0.11| 32| 256,256,3 | 150| Adam|
+
+### Gradcam
+
+Implémentation de la fonction Gradcam permettant de mettre en couleur les zones ciblées par le modèle.
+Ex : 
+
+
 
 
 
