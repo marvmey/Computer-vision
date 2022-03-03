@@ -41,6 +41,20 @@ J'ai utilisé VGG16 et InceptionV3 avec Tensorflow. Voici les résultats sur le 
 | InceptionV3| 0.986| 0.05| 32 | 300,300,3| 50| Adam  |    *** > Shuffle = True***
 |inceptionV3| 0.985| 0.11| 32| 256,256,3 | 150| Adam|
 
+### Variables pour * classifier.py * :
+epochs =                    *nombre d'epoch*
+dir_dataset = ''            *chemin du dataset input*
+batch_size =                *taille du batch_size*
+target_size = (,)           *taille de l'input lors du preprocessing*
+input_shape= (,,)           *taille de l'input du modèle (= target_size, rgb or grayscale)*
+shuffle = False             *melange du dataset lors du model.fit)*
+optimizers =                *choix de l'optimizers ( Adam, RMS, SGD,...)
+name_of_model =''           *nom du modèle*
+num_class =                 *nombre de classe à  prédire ( pills = 9)
+class_mode =                "binary, categorical, sparse or None*
+color_mode =                *rgb or grayscale*
+SEED =                      *graine pour la RNG*
+
 ### Gradcam
 
 Implémentation de la fonction Gradcam permettant de mettre en couleur les zones ciblées par le modèle.
