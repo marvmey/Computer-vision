@@ -42,18 +42,34 @@ J'ai utilisé VGG16 et InceptionV3 avec Tensorflow. Voici les résultats sur le 
 |inceptionV3| 0.985| 0.11| 32| 256,256,3 | 150| Adam|
 
 ### Variables pour * classifier.py * :
+
+
 epochs =                    *nombre d'epoch*
+
 dir_dataset = ''            *chemin du dataset input*
+
 batch_size =                *taille du batch_size*
+
 target_size = (,)           *taille de l'input lors du preprocessing*
+
 input_shape= (,,)           *taille de l'input du modèle (= target_size, rgb or grayscale)*
+
 shuffle = False             *melange du dataset lors du model.fit)*
-optimizers =                *choix de l'optimizers ( Adam, RMS, SGD,...)
+
+optimizers =                *choix de l'optimizers ( Adam, RMS, SGD,...)*
+
 name_of_model =''           *nom du modèle*
-num_class =                 *nombre de classe à  prédire ( pills = 9)
-class_mode =                "binary, categorical, sparse or None*
+
+num_class =                 *nombre de classe à  prédire ( pills = 9)*
+
+class_mode =                *binary, categorical, sparse or None*
+
 color_mode =                *rgb or grayscale*
+
 SEED =                      *graine pour la RNG*
+
+
+
 
 ### Gradcam
 
@@ -67,8 +83,23 @@ Exemple :
 <img src="https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_022.png" width="300" height="150">
 <img src="https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_crack_pill_ginseng_crack_022.png" width="300" height="150">
 
-<img src="https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_good_026.png" width="300" height="150">
-<img src="https://github.com/marvmey/Computer-vision/blob/main/classifier/image_grad_cam/pill_ginseng_good_pill_ginseng_good_026.png" width="300" height="150">
+
+### Variables pour *Gradcam.py*  :
+
+
+model_path = '' *chemin où le modèle a été sauvegardé*
+
+dir_img_grad_cam =  *chemin du dossier où les images grad_cam seront sauvegardée* 
+
+dir_dataset =  *chemin du dataset initial*
+
+target_size = *taille de l'image en input*
+
+img_size =  *taille de l'image souhaitée*
+
+last_conv_layer_name = *dernière couche de convolution à récupérer*
+
+prefix_to_remove = *si vous souhaitez retirer le préfix pour plus de vision dans le nom du fichier*
 
 
 
