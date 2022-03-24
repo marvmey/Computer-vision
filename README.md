@@ -123,7 +123,7 @@ Sortie :
 
 Ce que j'obtiens comme résultat est très peu représentatif mais nous pouvons clairement distingué une reconstruction d'image.
 Le problème vient très certainement des conditions de la prise (lumière, angle , etc...)
-<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/Figure_1.png" width="600" height="600">
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/Figure_1.png" width="600" height="300">
 
 
 
