@@ -10,6 +10,7 @@ Le programme propose plusieurs approches :
 - La classification
 - La segmentation
 - L'anomaly detection
+- Les SRGAN (Super-Resolution Generative Adversarial Networks)
 
 
 ### Les pré-requis : 
@@ -102,6 +103,8 @@ last_conv_layer_name = *dernière couche de convolution à récupérer*
 prefix_to_remove = *si vous souhaitez retirer le préfix pour plus de vision dans le nom du fichier*
 
 
+
+## SR-GAN
 
 
 
