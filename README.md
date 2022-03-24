@@ -111,8 +111,21 @@ prefix_to_remove = *si vous souhaitez retirer le préfix pour plus de vision dan
 
 Le projet sur les SRGAN consistent ici à effectuer une super résolution sur des Data matrix. J'ai donc générer aléatoirement 270 images de code. J'ai ensuite créer un dossier avec ces memes images en 60x60 que j'ai "sali" afin de me rapprocher un peu plus d'une image réelle.
 L'entrainement s'effectue avec les deux jeux de données. La résolution de sortie passe de 60x60 à 240x240.
-Le résultat sur mes images tests sont peu représentativent car les conditions (lumière, angle, etc..) ne sont pas bonnes.
-Voici des exemples:
+
+Voici ce que je lui donne en entrée et en sortie : 
+
+Entrée :
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337_dirty.png" width="300" height="150">
+
+Sortie : 
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337.png" width="300" height="150">
+
+
+Ce que j'obtiens comme résultat est très peu représentatif mais nous pouvons clairement distingué une reconstruction d'image.
+Le problème vient très certainement des conditions de la prise (lumière, angle , etc...)
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/Figure_1.png" width="600" height="150">
+
+
 
 
 
