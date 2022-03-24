@@ -115,15 +115,15 @@ L'entrainement s'effectue avec les deux jeux de données. La résolution de sort
 Voici ce que je lui donne en entrée et en sortie : 
 
 Entrée :
-<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337_dirty.png" width="300" height="150">
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337_dirty.png" width="300" height="200">
 
 Sortie : 
-<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337.png" width="300" height="150">
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/datamatrix_20220315095337.png" width="300" height="200">
 
 
 Ce que j'obtiens comme résultat est très peu représentatif mais nous pouvons clairement distingué une reconstruction d'image.
 Le problème vient très certainement des conditions de la prise (lumière, angle , etc...)
-<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/Figure_1.png" width="600" height="150">
+<img src="https://github.com/marvmey/Computer-vision/blob/main/SRGAN/image/Figure_1.png" width="600" height="600">
 
 
 
