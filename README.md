@@ -20,6 +20,25 @@ Le programme propose plusieurs approches :
 - Cuda, Cudnn (si vous possédez un GPU)
 - Tensorflow
 
+
+### Installation sur GPU : 
+
+- Télécharger le driver compatible nvidia sur :  www.nvidia.com
+- Installer cuDAToolkit 
+- Installer cuDNN (en .zip) puis extraire le dossier.
+- Dans la structure du dossier cuDnn vous pouvez voir 3 sous-dossiers (bin, include et lib)
+- Ouvrez une nouvelle fenetre avec le dossier Nvidia cuDatoolkit et vous verrez qu'il y a les memes 3 sous-dossiers (bin, include et lib)
+- Ouvrez le dossier "bin de cuDNN et copier-coller le fichier "cudnn64_7.dll" dans le dossier "bin" de cuDA
+- Repetez la meme opération avec "lib" > cudnn.lib
+- Aussi avec "include" > "cudnn.h"
+- Parametrez vos variables d'environnements
+- Redemarrez l'ordinateur 
+
+*source :  https://www.youtube.com/watch?v=IubEtS2JAiY&t=3s*
+          *https://www.tensorflow.org/guide/gpu*
+
+
+
 #### dataset
 Vous pouvez retrouver un large choix de jeu de données sur le site *https://www.mvtec.com/company/research/datasets/mvtec-ad*
 
