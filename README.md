@@ -34,7 +34,7 @@ Le programme propose plusieurs approches :
 - Parametrez vos variables d'environnements
 - Redemarrez l'ordinateur 
 
-*source :  https://www.youtube.com/watch?v=IubEtS2JAiY&t=3s*
+*source :  https://www.youtube.com/watch?v=IubEtS2JAiY&t=3s* /n
           *https://www.tensorflow.org/guide/gpu*
 
 
